@@ -130,11 +130,11 @@ include "konten.php";
                             </li>
                             <!--Menu Sesuai Akses-->
                             <?php
-                            if($_SESSION['menu']=="MANAJEMEN"){
-                                include "menu_manajemen.php";
+                            if($_SESSION['menu']=="Administrator"){
+                                include "menu_administrator.php";
                             }
-                            else if($_SESSION['menu']=="SISWA"){
-                                include "menu_siswa.php";
+                            else if($_SESSION['menu']=="Petugas"){
+                                include "menu_petugas.php";
                             }
                             ?>
                             <li class="nav-item">
