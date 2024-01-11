@@ -19,6 +19,11 @@ else if($_GET['p']=='user'){
     $konten="Konten/user.php";
 }
 
+else if($_GET['p']=='tambah'){
+    $title="Tambah Penjualan Baru ";
+    $konten="Konten/tambah.php";
+}
+
 // menu untuk transaksi
 else if($_GET['p']=='laporan'){
     $title="Laporan Sistem";
