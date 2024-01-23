@@ -24,6 +24,16 @@ else if($_GET['p']=='tambah'){
     $konten="Konten/tambah.php";
 }
 
+else if($_GET['p']=='histori'){
+    $title="Histori Penjualan  ";
+    $konten="Konten/histori.php";
+}
+
+else if($_GET['p']=='infojual'){
+    $title="Informasi Detail Penjualan  ";
+    $konten="Konten/infojual.php";
+}
+
 // menu untuk transaksi
 else if($_GET['p']=='laporan'){
     $title="Laporan Sistem";
